@@ -9,6 +9,10 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
+	for (s = 0; s <= 9; s++)
+		printf("%d", s);
+
+	putchar('\n');
+
 	return (0);
 }
