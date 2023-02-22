@@ -1,9 +1,12 @@
 #include "main.h"
 
-int main (void) {
+void letter(void) {
 
-for (a = 'a'; a < 'z'; a++)
+	char a;
+
+for (a = 'a'; a <= 'z'; a++)
 {
+
 	_putchar(a);
 	_putchar('\n');
 }
