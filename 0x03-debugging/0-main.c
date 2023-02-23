@@ -1,9 +1,9 @@
 #include "main.h"
 
-/**
- * main - tests functions that prints if integere is positive or negative
- * Return: 0
- */
+/*
+* main - tests functions that prints if integere is positive or negative
+* Return: 0
+*/
 
 int main(void)
 {
@@ -14,4 +14,3 @@ int main(void)
 
 	return (0);
 }
-
