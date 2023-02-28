@@ -3,7 +3,9 @@ int main (char s)
 {
 	 char s[9], r[9];
 	 s = "My School";
-	 int begin, count = 0;
+	 rev_string (char *s)
+		 
+	/** int begin, count = 0;
 	 int  end = count[s] -1;
 
 	 while (s[count] != '\0')
@@ -15,8 +17,8 @@ int main (char s)
 		 r[begin] = s[end];
 		 end--;
 	 }
-	 r[begin] = '\0';
+	 r[begin] = '\0';*/
 
-	 _putchar("%s\n", r);
+	 _putchar("%s\n", *s);
 
 	 return 0;
