@@ -8,6 +8,8 @@
 */
 
 char *_strcpy(char *dest, char *src)
+	//copying
+	
 {
 	char *tmp = dest;
 
