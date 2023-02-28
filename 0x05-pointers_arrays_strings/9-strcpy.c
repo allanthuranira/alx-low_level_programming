@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * strcpy - function prints string pointed to by src,
+* strcpy - function prints string pointed to by src,
 * including terminating null byte, to the buffer pointed
 * to by dest
 * @dest: destination pointer
@@ -10,8 +10,6 @@
 */
 
 char *_strcpy(char *dest, char *src)
-	//copying
-	
 {
 	char *tmp = dest;
 
@@ -26,4 +24,3 @@ char *_strcpy(char *dest, char *src)
 
 	return (tmp);
 }
-
