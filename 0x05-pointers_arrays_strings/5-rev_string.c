@@ -1,7 +1,7 @@
 #include "main.h"
-void main (char s)
+int main (char s)
 {
-	 char s[10], r[10];
+	 char s[9], r[9];
 	 s = "My School";
 	 int begin, count = 0;
 	 int  end = count[s] -1;
