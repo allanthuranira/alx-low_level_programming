@@ -9,7 +9,6 @@
 * Return: pointer to dest
 */
 
-// copying function
 char *_strcpy(char *dest, char *src)
 {
 	char *tmp = dest;
