@@ -3,13 +3,12 @@
  * string char
  * string dest
  */
-int main (char *src, char dest)
+
+char *_strcat(char *dest, char *src)
 {
-	char src[7] = "Hello ";
-	char dest[7] = "World!\n";
-	char *ptr = src;
-	*_strcat(*src,dest);
-	*_putchar (*ptr);
-	*_putchar ("%s", *src);
-	_putchar ("\n");
-	return (0);
+	char dest [7] = {'h','e','l','l','o', ' '};
+	char src [7] = {'w','o','r','l','d','!','\n'};
+	char *ptr = *dest;
+	_putchar(*dest);
+	_putchar(*ptr);
+}
