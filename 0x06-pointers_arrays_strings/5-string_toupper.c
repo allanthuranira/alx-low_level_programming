@@ -7,6 +7,7 @@
  */
 char *string_toupper(char *n)
 {
+<<<<<<< HEAD
 	int i;
 
 	i = 0;
@@ -17,5 +18,15 @@ char *string_toupper(char *n)
 		i++;
 	}
 	return (n);
+=======
+	char str[] = "Look up!\n";
+	char *ptr = *str;
+	char STR[] = toupper(str);
+
+	_putchar(STR);
+	_putchar(*ptr);
+
+	return (0);
+>>>>>>> d455ec1dcb59e234ca8eab1035989260d151a802
 }
 
