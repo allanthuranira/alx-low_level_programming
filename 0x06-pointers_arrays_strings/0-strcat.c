@@ -17,5 +17,5 @@ char *_strcat(char *dest, char *src)
 	_putchar(*dest);
 	_putchar(*ptr);
 
-	return (dest);
+	return (*dest);
 }
