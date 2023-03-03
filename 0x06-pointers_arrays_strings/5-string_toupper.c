@@ -9,15 +9,12 @@
  */
 char *string_toupper(char *str)
 {
-	int index = 0;
+	char str[] = "Look up!\n";
+	char *ptr = *str;
+	char STR[] = toupper(str);
 
-	while (str[index])
-	{
-		if (str[index] >= 'a' && str[index] <= 'z')
-			str[index] -= 32;
+	_putchar(STR);
+	_putchar(*ptr);
 
-		index++;
-	}
-
-	return (str);
+	return (0);
 }
