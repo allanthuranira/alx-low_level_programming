@@ -1,1 +1,1 @@
-preprocessor and macros
+structures and typedef
